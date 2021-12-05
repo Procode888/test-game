@@ -1,0 +1,31 @@
+using system;
+
+namespace my_first_program
+{
+    class program
+        {
+        static void main(string[] args)
+             {
+        //get a conversation going
+    
+       console.title = "test"
+       console.foregroundcolor = consolecolor.blue;
+       console.windowheight = 50;
+       
+       //you are going to talk with an ai
+       
+       console.writeline("hello , whats your name?");
+       
+       console.readline(); //type somthing
+       
+       console.writeline("cool, my name is roboX9000")
+       console.writeline("i am a program /nwhats your favoratite color")
+       
+       console.readline(); //type another thing
+       
+		       console.writeline("cool, my favoratite is gray /nby")
+		       
+		       console.readkey();
+		       }
+		   }
+}
